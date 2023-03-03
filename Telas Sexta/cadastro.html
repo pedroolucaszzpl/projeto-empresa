@@ -1,41 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="formulario.css">
     <title>Document</title>
 </head>
-<body>
-    <div>
-    <div id="cadastro">
-        <form method="post" action="">
-            <h1>Cadastro</h1>
 
-            <p>
-                <label for="nome_cad">Seu nome</label>
-                <input id="nome_cad" name="nome_cad" required="required" type="text" placeholder="Digite seu nome" />
-            </p>
-            <p>
-                <label for="snome_cad">Seu sobrenome</label>
-                <input id="snome_cad" name="snome_cad" required="required" type="text" placeholder="Digite seu sobrenome" />
-            </p>
-            <p>
-                <label for="email_cad">Seu e-mail</label>
-                <input id="email_cad" name="email_cad" required="required" type="text" placeholder="Digite seu e-mail" />
-            </p>
-            <p>
-                <label for="numero_cad">Número de telefone</label>
-                <input id="numero_cad" name="numero_cad" required="required" type="text" placeholder="Digite número:(11)00000-0000" />
-            </p>
-            <p>
-                <label for="senha_cad">Senha</label>
-                <input id="senha_cad" name="senha_cad" required="required" type="text" placeholder="Digite uma senha" />
-            </p>
-            <form action="login.html">
-                <input type="submit" value="Cadastrar" >
-            </form>
-        </form>
+<body>
+    <header>
+    </header>
+    <div class="container">
+        <a class="links" id="paracadastro"></a>
+        <a class="links" id="paralogin"></a>
+
+        <div class="con">
+            <!--login-->
+            <div id="login">
+                <form method="post" action="">
+                    <h1>Cadastro</h1>
+                    <p>
+                        <label for="nome_cad">Seu nome</label>
+                        <input id="nome_cad" name="nome_cad" type="text" placeholder="Digite seu nome" required />
+                    </p>
+                    <p>
+                        <label for="snome_cad">Seu sobrenome</label>
+                        <input id="snome_cad" name="snome_cad" type="text" placeholder="Digite seu sobrenome"
+                            required />
+                    </p>
+                    <p>
+                        <label for="email_cad">Seu e-mail</label>
+                        <input id="email_cad" name="email_cad" type="text" placeholder="Digite seu e-mail" required />
+                    </p>
+                    <p>
+                        <label for="numero_cad">Número de telefone</label>
+                        <input id="numero_cad" name="numero_cad" type="text"
+                            placeholder="Digite número: (11) 00000-0000" required />
+                    </p>
+                    <p>
+                        <label for="senha_cad">Senha</label>
+                        <input id="senha_cad" name="senha_cad" type="text" placeholder="Digite uma senha" required />
+                    </p>
+                    <p>
+                        <input type="submit" value="Cadastrar" onClick="window.location='formulario.html'">
+                    </p>
+                </form>
+            </div>
+        </div>
     </div>
+
 </body>
+
 </html>
