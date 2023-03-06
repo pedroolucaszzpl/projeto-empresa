@@ -612,7 +612,10 @@ progress {
   max-width: 100%;
   height: auto;
 }
-
+#brandImage{
+  width: 80px;
+  margin: 0px 10px 0px 0px;
+}
 .figure {
   display: inline-block;
 }
@@ -4056,6 +4059,10 @@ textarea.form-control-lg {
   font-size: 1.25rem;
   text-decoration: none;
   white-space: nowrap;
+  width: 400px;
+  margin: 0px 0px 0px 0px;
+  padding: 0px;
+
 }
 .navbar-nav {
   display: flex;
@@ -11364,6 +11371,7 @@ html {
 }
 #mainNav .navbar-nav {
   margin-top: 1rem;
+  width: 200px;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link {
   color: #fff;
@@ -11407,9 +11415,11 @@ html {
   #mainNav.navbar-shrink {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
+    width: 200px;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.5em;
+    width: 200px;
   }
 }
 .form-floating input.form-control,
