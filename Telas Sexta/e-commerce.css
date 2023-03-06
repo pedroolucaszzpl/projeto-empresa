@@ -1,0 +1,121 @@
+:root{
+    --BlackPurple: #4A192C;
+    --DarkPurple: #52253a;
+    --DarkCream: #FFFACD;
+    --Purple: #c8a2cb;
+    --Cream: #FFFBE7; 
+}
+header {
+    background-color: var(--DarkPurple);
+    color: var(--black);
+    /* min-height: 60px; */
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+.logoperola{
+    width: 125px;
+    /* align-items: center;    */
+    margin-left: -150px;
+    margin-top: -50px;
+}
+body{
+    background: var(--Cream);
+    font-size: 14px;
+}
+.v3425 {
+    background: var(--BlackPurple);
+    width: 100%;
+    height: 295px;
+  }
+a {
+    text-decoration: none;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+}
+
+main {
+    max-width: 1140px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+}
+
+/*style e afins*/
+
+.container {
+    max-width: 1140px;
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 50px 0 20px 0;
+}
+
+.navbar-menu {
+    display: flex;
+}
+
+.navbar-logo {
+    align-items: center;
+}
+
+.navbar-items {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar-items-menu {
+    padding: 0;
+    border-bottom: 5px solid transparent;
+    font-family: oswald;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.nav-link {
+    font-weight: 700;
+    color: var(--Purple);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+search{
+    background: rgba(255,250,205,1);
+  width: 299px;
+  height: 26px;
+  z-index: 1;
+}
+.v37_39 {
+    width: 30px;
+    height: 67px;
+    background: url("../images/v37_39.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .v37_40 {
+    width: 30px;
+    height: 67px;
+    background: url("../images/v37_40.png");
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    border: 13.096580505371094px solid rgba(255,250,205,1);
+  }
